@@ -1,12 +1,142 @@
-JANUARY: "January"
-FEBRUARY: "February"
-MARCH: "March"
-APRIL: "April"
-MAY: "May"
-JUNE: "June"
-JULY: "July"
-AUGUST: "August"
-SEPTEMBER: "September"
-OCTOBER: "October"
-NOVEMBER: "November"
-DECEMBER: "December"
+# =======================
+#         Общее
+# =======================
+BUNGEE_SERVER_MOTD_TEXT:
+  - '          &d&lThe Homies &7(1.20+)'
+  - '  &a&lᐅ &fWe''ve opened up! &c&lGlobal &fupdate! &a&lᐊ'
+BUNGEE_SERVER_MOTD_HOVER:
+  - ' &a► &fCome play with us :3'
+
+BUNGEE_WHITELIST_SERVER_MOTD_TEXT:
+  - '&d&lThe Homies &6BETA &8» &eGlobal Update'
+  - ' &a► &cServer state is update!'
+BUNGEE_WHITELIST_SERVER_MOTD_HOVER:
+  - '&a► &cServer state is update!'
+
+CORE_NOT_CONNECTED_MOTD:
+  - '&d&lThe Homies &8» &bmc.thehomies.ru'
+  - ' &a► &cThere is no connection to the game coordinator'
+CORE_NOT_CONNECTED_HOVER:
+  - '&a► &cThere is no connection to the game coordinator'
+
+PLAYER_TAB_HEADER:
+  - '&d&lThe Homies&r'
+  - ''
+  - '&7Player list:'
+PLAYER_TAB_FOOTER:
+  - ''
+  - ' &fGlobal online &8→ &e%online% '
+  - "&fYour server: &a%server%"
+  - '&dwww.thehomies.ru'
+
+WELCOME_MESSAGE:
+  - ''
+  - '§8§k§l|§r§1  §fWelcome to §d§lThe Homies  §8§k§l|'
+  - ''
+  - ' §8▪ §fHere you can have a §agood time.'
+  - ' §8▪ §fThe items in your inventory will help you!'
+  - ''
+
+WHITELIST_KICK_MESSAGE:
+  - '§8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+  - '§1'
+  - '§cThe server is currently being updated!'
+  - '§2'
+  - '§3'
+  - '§aAt the moment, the server is under update'
+  - '§fYou can get detailed information on our social networks'
+  - '§4'
+  - '§dhttps://hmies.ru/vk'
+  - '§dhttps://hmies.ru/discord'
+  - '§5'
+  - '§8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+
+LVL_UP_TITLE: '§a§l§kX§c§l LEVEL UP §a§l§kX§r'
+LVL_UP_SUBTITLE: '§fYou have reached §b%new_level% §flevel'
+LVL_UP_MESSAGE:
+  - ''
+  - ''
+  - '            §b§kX§6§l NEW LEVEL §b§kX'
+  - '  §a▸ §fYou have reached §b%new_level% §flevel'
+  - '  §a▸ §fTo next level required §e%total_exp% §fexperience'
+  - ''
+
+BACK_TITLE: '§cBack'
+BACK_LINES:
+  - ''
+  - '§c▶ Click to return to the previous menu.'
+
+# =======================
+#         Игрок
+# =======================
+NO_PERM: '§d§lThe Homies §8:: §cYou don`t have permission!'
+MINIMAL_GROUP: '§d§lThe Homies §8:: §cError, you dont have permission buy %group% §cor higher!'
+NO_PLAYER: '§d§lThe Homies §8:: §fThis player has not played on our server before'
+PLAYER_OFFLINE: '§d§lThe Homies §8:: §cError, player offline!'
+PLAYER_BYPASS: '§d§lThe Homies §8:: §cError, You cannot punish this player'
+ALREADY_CONNECTION: '§d§lThe Homies §8:: §cError, you are already on this server!'
+SERVER_NOT_FOUND: '§d§lThe Homies §8:: §cError, this server is not connected to Core!'
+VK_URL: '§8▪ §fVK - §9https://vk.com/id%vkId%'
+NO_VK: '§8▪ §fVK - §cNot linked'
+NO_ENOUGH_MONEY: '§d§lThe Homies §8:: §cMistake, you don''t have enough funds!'
+
+INFO:
+  - '§d§lThe Homies §8:: §fPlayer Information %player%'
+  - '§8▪ §fUnique ID - §c%id%'
+  - '§8▪ §fGroup - %group%'
+  - '§8▪ §fBalance - §a%money%'
+  - '§8▪ §fHomies - §a%plazma%'
+  - '§8▪ §fLevel - §d%level%'
+  - '§8▪ §fLanguage - §c%language%'
+  - '§8▪ §fEXP - §e%exp%§8/§c%max_exp%'
+INFO_ONLINE:
+  - ''
+  - '§8▪ §fAt the moment - §aOnline'
+  - '§8▪ §fCurrent server - §d%server%'
+  - '§8▪ §fVersion - §d%version%'
+INFO_OFFLINE:
+  - ''
+  - '§8▪ §fAt the moment - §cOffline'
+  - '§8▪ §fLast server - §d%server%'
+  - '§8▪ §fI was online §c%date% ago'
+
+# =======================
+#         Авторизация
+# =======================
+USE_LOGIN_SERVER: '§d§lThe Homies §8:: §cError, this command is not allowed on this server!'
+UNREGISTER_SUCCESS: '§d§lThe Homies §8:: §fYou have successfully unregistered the player'
+PASSWORD_NOT_VALID: '§d§lThe Homies §8:: §cError, The selected password is short or too long'
+PASSWORD_NOT_MATCH: '§d§lThe Homies §8:: §cError, the specified passwords do not match!'
+USE_ONLY_AUTH: '§d§lThe Homies §8:: §cError, you are not logged in yet!'
+PLAYER_NOT_AUTH: '§d§lThe Homies §8:: §cError, you are not logged in to your account'
+PLAYER_NOT_REGISTER: '§d§lThe Homies §8:: §cError, you are not registered'
+PLAYER_WRONG_PASSWORD: '§d§lThe Homies §8:: §cError, incorrect password!'
+PLAYER_SUCCESS_CHANGE_PASSWORD: '§d§lThe Homies §8:: §7Your password has been successfully changed!'
+PLAYER_ALREADY_AUTH: '§d§lThe Homies §8:: §cError, you are already logged in, have a nice game!'
+PLAYER_SUCCESS_AUTH: '§d§lThe Homies §8:: §fYou have successfully registered!'
+CHANGE_PASSWORD_USAGE: '§d§lThe Homies §8:: §fUse - §d/changepassword <old_password> <new_password>'
+UNREGISTER_USAGE: '§d§lThe Homies §8:: §fUse - §d/unregister <player>'
+REGISTER_USAGE:
+  - '§8§m--------------§6§lAuth§8§m--------------'
+  - ''
+  - '§7Welcome to §d§lThe Homies§7!'
+  - ''
+  - '§e§l> §fUse - §d/register §8[§fPassword§8] §8[§fRepeat password§8]'
+  - ''
+  - '§8§m----------------------------------------'
+LOGIN_USAGE:
+  - '§8§m--------------§6§lAuth§8§m--------------'
+  - ''
+  - '§7Welcome to §d§lThe Homies§7!'
+  - ''
+  - '§e§l> §fUse - §d/login §8[§fPassword§8]'
+  - ''
+  - '§8§m----------------------------------------'
+ACCOUNT_NOT_LINKED_VK:
+  - ''
+  - '§c§l⚠ Attention! §fYou do not have a §bVK page linked to your account.'
+  - 'By doing this, you will be able to manage your account.'
+  - 'If you get hacked, you can easily restore your account!'
+  - 'Do it now by writing in group messages: §evk.com/the_homies'
+  - 'Command - §6!link [player] [password]'
+  
